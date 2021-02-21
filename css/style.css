@@ -48,6 +48,14 @@ header {
     height: 250px;
 }
 
+.dis-odd {
+
+}
+
+.dis-even {
+
+}
+
 .single-project div h3 {
     font-family: 'Playfair Display', serif;
 }
@@ -64,5 +72,13 @@ header {
 
     .single-project img {
         width: 30%;
+    }
+
+    .dis-odd {
+        margin-right: 12px;
+    }
+
+    .dis-even {
+        margin-left: 12px;
     }
 }
