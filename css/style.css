@@ -20,6 +20,11 @@ header .container {
 
 /*RESPONSIVE HEADER*/
 
+.nav-title {
+    display: flex;
+    flex-direction: column;
+}
+
 .resp-header {
     /*background: deepskyblue;*/
     width: 100%;
@@ -59,6 +64,7 @@ header .container {
     margin-top: 0px;
     padding: 10px;
     display: none;
+    width: 100%;
     /*display: block;*/
 }
 
