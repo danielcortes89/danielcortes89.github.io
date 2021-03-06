@@ -189,7 +189,7 @@ footer i {
     }
 
     .single-project img {
-        width: 30%;
+        width: 40%;
     }
 
     .dis-odd {
@@ -198,5 +198,11 @@ footer i {
 
     .dis-even {
         margin-left: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .single-project img {
+        width: 30%;
     }
 }
