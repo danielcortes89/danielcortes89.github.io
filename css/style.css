@@ -35,6 +35,16 @@ header .container {
     margin-bottom: 0px;
 }
 
+.resp-header a {
+    color: black;
+    background: cornflowerblue;
+}
+
+.resp-header a:hover {
+    color: cornflowerblue;
+    background: black;
+}
+
 .resp-header a#resp {
     border: 2px solid black;
 }
@@ -59,7 +69,7 @@ header .container {
 }
 
 #ghost-nav {
-    background: black;
+    background: var(--dark);
     color: deepskyblue;
     margin-top: 0px;
     padding: 10px;
@@ -71,6 +81,7 @@ header .container {
 #ghost-nav ul {
     list-style: none;
     padding: 0;
+    font-size: 1.2rem;
 }
 
 #ghost-nav li {
@@ -78,11 +89,15 @@ header .container {
 }
 
 #ghost-nav li:hover {
-    background: deepskyblue;
+    background: cornflowerblue;
     color: black;
 }
 
-#links a {
+#ghost-nav li:hover a {
+    color: black;
+}
+
+.links a {
     color: black;
 }
 
