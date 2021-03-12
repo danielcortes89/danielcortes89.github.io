@@ -236,3 +236,7 @@ footer i {
         width: 30%;
     }
 }
+
+#skills span {
+    border-right: 1px solid black;
+}
