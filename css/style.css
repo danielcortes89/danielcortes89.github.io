@@ -196,14 +196,17 @@ footer i {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 70%;
+    /*width: 70%;*/
 
     font-size: 1.2rem;
 }
 
 #skills span {
-    padding: 0 5px;
-
+    padding: 5px 5px;
+    background: #6b99c2;
+    color: white;
+    padding: 0px 5px;
+    margin: 5px 0px;
     /*border-right: 1px solid black;*/
     /*padding: 20px;*/
     /*margin: 15px;*/
