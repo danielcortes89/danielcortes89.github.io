@@ -20,6 +20,10 @@ header .container {
 
 /*RESPONSIVE HEADER*/
 
+.standard-spacing {
+    margin: 0 5px;
+}
+
 .nav-title {
     display: flex;
     flex-direction: column;
@@ -185,6 +189,26 @@ footer i {
     margin: 0 15px;
 }
 
+/*SKILLS*/
+
+#skills {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+
+    font-size: 1.2rem;
+}
+
+#skills span {
+    padding: 0 5px;
+
+    /*border-right: 1px solid black;*/
+    /*padding: 20px;*/
+    /*margin: 15px;*/
+}
+
 
 @media screen and (min-width: 567px){
     #resp {
@@ -202,6 +226,7 @@ footer i {
         text-decoration: none;
         /*padding: 10px;*/
     }
+
 }
 
 @media screen and (max-width: 576px){
@@ -230,9 +255,9 @@ footer i {
         margin-left: 12px;
     }
 
-    #skills {
-        width: 100%;
-    }
+    /*#skills {*/
+    /*    width: 100%;*/
+    /*}*/
 }
 
 @media screen and (min-width: 992px) {
@@ -241,22 +266,6 @@ footer i {
     }
 }
 
-#skills {
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
-    font-size: 1.2rem;
-}
-
-#skills span {
-    padding: 0 5px;
-
-    /*border-right: 1px solid black;*/
-    /*padding: 20px;*/
-    /*margin: 15px;*/
-}
 
 /*#last-skill {*/
 /*    border-right: 1px solid white !important;*/
