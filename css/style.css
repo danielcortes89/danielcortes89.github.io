@@ -203,13 +203,17 @@ footer i {
 
 #skills span {
     padding: 5px 5px;
-    background: #6b99c2;
-    color: white;
+    /*background: #6b99c2;*/
+    /*color: white;*/
     padding: 0px 5px;
     margin: 5px 0px;
     /*border-right: 1px solid black;*/
     /*padding: 20px;*/
     /*margin: 15px;*/
+}
+
+#skills span:hover {
+    box-shadow: 0px 0px 5px 2px black;
 }
 
 
