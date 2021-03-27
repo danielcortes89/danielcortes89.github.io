@@ -44,6 +44,10 @@ header .container {
 /*    background: cornflowerblue;*/
 /*}*/
 
+.resp-header a {
+    padding: 8px;
+}
+
 .resp-header a:hover {
     color: cornflowerblue;
     background: black;
@@ -210,6 +214,7 @@ footer i {
     /*border-right: 1px solid black;*/
     /*padding: 20px;*/
     /*margin: 15px;*/
+
 }
 
 #skills span:hover {
