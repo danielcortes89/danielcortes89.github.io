@@ -6,7 +6,7 @@
 }
 
 header {
-    background: steelblue;
+    background: rgba(33, 94, 151, 0.9);
     padding: 2rem;
     width: 100%;
     position: sticky;
